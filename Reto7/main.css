@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-sin-fin-incons%C3%BAtil-del-modelo-con-f%C3%B3rmulas-matem%C3%A1ticas-manuscritas-66751025.jpg://fondosmil.com/fondo/20886.jpg);
+}
+
+.btn1{
+    width: 300px;
+    height: 75px; 
+    border-radius: 20px;
+    background-color: rgb(59, 29, 228);
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+}
