@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #00AF1C;
+    align-items: center;
+    padding: 20px 10%;
+}
+.nav{
+    list-style: none;
+}
+.nav-menu li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight:bolder;
+  
+}
+
+.contenedor{
+    
+    padding: 33px;
+    width: 100%;
+    max-width:auto;
+    overflow: hidden;
+    text-align:left;
+    margin: auto;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+p{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+img{
+    margin-right: 30px;
+}
+[class$="-titulo"]{
+    padding-bottom: 30px;
+
+}
+.home-titulo{
+    color: #3B06D2;
+}
+.servicios-titulo{
+    color: #D206B2;
+}
+.portafolio-titulo{
+    color: #AAD206;
+}
+.contacto-titulo{
+    color: #06D2C6;
+}
+
+.lista li:nth-child(1)
+{
+    color: red;
+}
+.lista li:nth-child(2)
+{
+    color: blue;
+}
+.lista li:nth-child(3)
+{
+    color: yellow;
+}
+.lista li:nth-child(4)
+{
+    color: rgb(86, 187, 221);
+}
+
+
+.lista{
+    position: relative;
+    top:30px;
+    left:40px;
+}
+.lista ul{
+    width: 158px;
+    height: 176px;
+    left: 49px;
+    top: 1075px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 44px;
+    /* or 244% */
+}
+.form{
+    font-size: 16px;
+    width: 100%;
+    height: 10vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.form-detalle{
+    height: 30vh;  
+}
+.form::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.form-detalle::placeholder{
+    position:absolute;
+}
+.form-submit{
+    border: 1px solid #22A900;
+    color: #22A900;
+    width: 12%;
+    height: 8vh;
+    font-size: 22px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    color: white;
+
+}
+.derechos{
+    margin-right: auto;
+}
